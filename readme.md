@@ -32,7 +32,7 @@ This follow the same syntax used for other block: &M00-M02="text".
 
 | Type     | Example                       | Description                                        |
 |----------|-------------------------------|----------------------------------------------------|
-| Unique   | `&I00:&O05="text"`            | Text applied from block I00 to block O05           |
+| Unique   | `&I00:&O05="text"`            | Text applied from block I00 and block O05           |
 | Multiple | `&I00:05&O01:04:05:06="text"` | Assigns text to multiple blocks in I and O columns |
 
 ### Extended (Two Columns)
@@ -54,3 +54,4 @@ Mode: unet
 
 Mode: free
 ![Free Mode](images/freemode.jpg)
+
