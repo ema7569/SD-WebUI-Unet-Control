@@ -38,7 +38,7 @@ This follow the same syntax used for other block: &M00-M02="text".
 
 | Type   | Example           | Description                              |
 |--------|-----------------|--------------------------------------------|
-| Unique | `&I00:05+="text"` | Adds text to blocks I00 through I05      |
+| Unique | `&I00:05+="text"` | Adds text to blocks I00, I05, O00, O05   |
 | Range  | `&I00-05+="text"` | Same principle with a block range        |
 
 
@@ -55,6 +55,7 @@ Mode: unet
 
 Mode: free
 ![Free Mode](images/freemode.jpg)
+
 
 
 
