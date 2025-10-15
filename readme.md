@@ -13,7 +13,7 @@ This project provides an advanced tool to write negative and positive prompts di
 ## Block Syntax
 
 The syntax allows assigning text to specific UNet blocks.
-NOTE: The unet has 3 middles blocks called M00, M01, M02. The are important blocks. 
+NOTE: The unet has 3 middles blocks called M00, M01, M02. They are important blocks. 
 If you forgot to write to M00 like &M00="Text", generaly the unet will stop follow your prompt.
 Technically it seem recommanded to write to these three blocks despite juste the M01 has the attn flag.
 This follow the same syntax used for other block: &M00-M02="text".
@@ -55,6 +55,7 @@ Mode: unet
 
 Mode: free
 ![Free Mode](images/freemode.jpg)
+
 
 
 
