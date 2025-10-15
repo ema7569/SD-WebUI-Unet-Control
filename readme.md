@@ -1,7 +1,6 @@
 # UNet Control for Webui/SD15
 
-This project provides an advanced tool to manage and control the UNet structure in Stable Diffusion 1.5.
-It allows to write negative and positive prompts directly to UNet blocks with a flexible syntax.
+This project provides an advanced tool to write negative and positive prompts directly to the UNet blocks with a flexible syntax.
 
 ## Features
 
@@ -56,6 +55,7 @@ Mode: unet
 
 Mode: free
 ![Free Mode](images/freemode.jpg)
+
 
 
 
