@@ -45,8 +45,10 @@ This follow the same syntax used for other block: &M00-M02="text".
 
 ### Example 
 
+```
 Prompt: &I00-11="cat" &O00-11="dog" &M00-02="cat"
 Negative prompt: &I00-11+="low quality"
+```
 Console result:
 
 Mode: unet
@@ -54,4 +56,5 @@ Mode: unet
 
 Mode: free
 ![Free Mode](images/freemode.jpg)
+
 
